@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			NWA Ultimate
+		</title>
+		
+
+		<link type="text/css" rel="stylesheet" href="reset.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Muli|Raleway' rel='stylesheet' type='text/css'>
+  		<link type="text/css" rel="stylesheet" href="nwau-v4.css"/>
+  		<!--<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  		-->
+  		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+  		<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  		<script type="text/javascript" src="nwau-v4.js"></script>
+  		<script type="text/javascript">
+
+			var slideimages = new Array() // create new array to preload images
+			slideimages[0] = new Image() // create new instance of image object
+			slideimages[0].src = "background.jpg" // set image src property to image path, preloading image in the process
+			slideimages[1] = new Image()
+			slideimages[1].src = "LS1.jpg"
+			//slideimages[2] = new Image()
+			//slideimages[2].src = "thirdcar.gif"
+
+		</script>
+		<script type="text/javascript">
+
+			//variable that will increment through the images
+			var step=0
+
+			function slideit(){
+			 //if browser does not support the image object, exit.
+			 if (!document.images)
+			  return
+			 document.getElementById('slide').src = slideimages[step].src
+			 if (step<1)
+			  step++
+			 else
+			  step=0
+			 //call function "slideit()" every 2.5 seconds
+			 setTimeout("slideit()",2500)
+			}
+
+			slideit()
+
+		</script>
+		<!--<script type="text/javascript">
+		$(document).ready(function(){ 
+								   
+			$("div").css("border", "3px solid red");
+			
+		});
+		</script>-->
+	</head>
+	<body>
+		<div id="intro">
+			<a name="home">
+			<header>
+				<h1>northwest arkansas ultimate.</h1>
+				<h3>shaping the sport of ultimate, locally.</h3>						
+			</header>
+			</a>
+			<nav class="main-nav">
+				<ul>
+					<li><a href="#home">home</a></li>
+					<li><a href="#events">events</a></li>
+					<li><a href="#signup">sign up</a></li>
+					<li><a href="#events">about us</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="main">
+			<div class="part-a">
+				<div id="mission">
+					<h1>our mission</h1>
+					<p>
+						NWA Ultimate aims to promote active lifestyles, teach character, </br>
+		      			and unite a community for all ages through the sport of ultimate.
+					</p>
+				</div>
+			</div>
+			<a name="events">
+			<div id="arrow1" class="spacers" style="width:80%;margin-left:10%;">
+				<center>
+					<img id="arrow-down" style="display:block;margin-left:auto;margin-right:auto;" align="center" src="arrow-down-2-icon.png">
+				</center>
+			</div>
+			</a>
+			<div class="part-b">
+				<div id="leagues">					
+					<h1 id="leagues-h1">join a league</h1>					
+					<ul id="league-list">
+						<li id="summerleague"><a href="">summer</a>
+							<div id="summerleagueinfo">Begins on May 18th. </br> Please fill out this form if interested.</div></li>
+						<li id="fall-league"><a href="">fall</a>
+							<div id="fall-leagueinfo">Begins on May 18th. </br> Please fill out this form if interested.</div></li>
+						<li id="winterleague"><a href="">winter</a>
+							<div id="winterleagueinfo">Begins on May 18th. </br> Please fill out this form if interested.</div></li>
+					</ul>
+					<h1 id="leagues-h2">upcoming tournaments</h1>					
+					<ul id="tourney-list">
+						<li><a href="">Tax-Break Tourney</a></li>
+					</ul>
+				</div>
+				<div id="about-us">
+					<h1>about us</h1>
+					<p>
+						This may be brief, but the best way to get to know us is by throwing a disc around. </br></br>
+						Basically, we all wanted an organization that provides outlets to play the sport of Ultimate, so we made one. Some of us are college aged and some of us have teenagers, but our commonality lies in a love for the game and our community. We'd be thrilled to have you join us for pick up, leagues, tourneys, or happy hour.</br>
+
+						Did you know Ultimate is an Olympic sport, now? Kids can learn it, daddy's with the dad gut can keep up, and now olympians emerge. If you're inexperienced, out of shape, or a serious athlete this game is for you.</br></br>
+
+						<span>If you currently play in the area,</span> why play in small divided groups across the area when we could play together and pool efforts to make consistent games happen?
+					</p>
+				</div>
+			</div>
+			<a name="signup">
+			<div id="arrow2" class="spacers" style="width:80%;margin-left:10%;">
+				<center>
+					<img id="arrow-down" style="display:block;margin-left:auto;margin-right:auto;" align="center" src="arrow-down-2-icon.png">
+				</center>
+			</div>
+			</a>
+			<div class="part-c">
+				<div id="signup">
+					<h1>how to sign up</h1>					
+		      		<p>
+		      			Fill out the league or tournament form that takes 00:00:43 seconds to complete. It tells us some highly classified info about you like your name and shirt size.</br></br>
+		      			No sign up required for pick up, but it would be great if you would let us know in advance you're coming.</br>
+		      			For current times and places for pick up email nwaultimateinfo@gmail.com.
+		      		</p>
+				</div>
+			</div>	
+			<div id="arrow3" class="spacers" style="width:80%;margin-left:10%;">
+				<center>
+					<img id="arrow-down" style="display:block;margin-left:auto;margin-right:auto;" align="center" src="arrow-down-2-icon.png">
+				</center>
+			</div>
+			<div class="part-d">
+				<div class="league-accordian">										
+					<!--<a href=""><h1>lorem ipsum</h1></a>
+		      		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+					<a href=""><h1>lorem ipsum</h1></a>-->	
+
+					<img id="slide" src="background.jpg">	      		
+				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+			<p>northwest arkansas ultimate.</br>
+      		a site designed by jackson hoyt</p>
+		</div>
+	</body>
+</html>
