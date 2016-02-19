@@ -1,7 +1,3 @@
-body {
-  color: gray;
-}
-
 body > header {
   font-family: 'Raleway', sans-serif;
   height: 400px;
@@ -55,6 +51,9 @@ body > nav {
   top: 400px;
   width: 100%;
 
+  #navbarLogo {
+    display: none;
+  }
   a {
     color: #f07057;
     display: inline-block;
@@ -72,37 +71,19 @@ body > nav.affix {
   position: fixed;
   top: 0;
 }
-nav #navbarLogo {
-  display: none;
-}
-nav #navbarLogo .clone {
-  font-family: 'Raleway', sans-serif;
-  text-align: left;
-  vertical-align: middle;
-  float: left;
-  padding-left: 5px;
-}
-nav #navbarLogo h1 {
-  font-size: 25px;
-  color: #f07057;
-}
-nav #navbarLogo h3 {
-  font-size: 15px;
-  color: gray;
-}
 
-/* footer */
-#footer {
+body > footer {
+  background-color: #efefef;
+  bottom: 0;
+  box-shadow: 0 0 5px rgba(0,0,0, .4);
+  float: left;
   font-family: 'Raleway', sans-serif;
+  padding: 5px 0;
   text-align: center;
   vertical-align: middle;
-  background-color: #efefef;
   width: 100%;
-  bottom: 0;
-  padding: 5px 0;
-  float: left;
-  box-shadow: 0 0 5px rgba(0,0,0, .4);
-}
-#footer p {
-  color: #f07057;
+
+  p {
+    color: #f07057;
+  }
 }

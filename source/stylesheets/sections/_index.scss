@@ -1,179 +1,120 @@
-/* main */
-body {
-  height: 100%;
-  width: 100%;
-}
-#main {
+article {
   background-color: #f2f2e8;
   font-family: 'Muli', sans-serif;
   height: auto;
   position: relative;
   width: auto;
 }
-#main h1{
+article h2 {
   color: #f07057;
   font: 24px 'Raleway', sans-serif;
 }
-#mission, .events {
-  height: 200px;
-  padding-top: 150px;
-}
 
-/* mission */
 #mission {
-  padding: 50px;
-  padding-top: 150px;
-}
-#mission h1, #mission p {
-  float: left;
-}
-#mission h1 {
-  font-size: 30px;
-  font-weight: bold;
-  margin: 1%;
-  text-align: right;
-  width: 31.3%;
-}
-#mission p {
-  font-size: 26px;
-  width: 62.6%;
-  margin: 1%;
-  text-align: left;
+  padding: 150px 400px 0;
+  text-align: center;
+  white-space: nowrap;
+
+  h2 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  p {
+    display: inline-block;
+    font-size: 22px;
+    max-width: 800px;
+    text-align: left;
+    white-space: normal;
+  }
 }
 
-/* leagues, tourneys, & pickup */
-.headerspace {
-  padding-bottom: 10px;
-}
-#leagues, #pickup, #tournaments  {
-  vertical-align: top;
-  display: inline-block;
-  text-align: left;
-  margin-left: 20px;
-}
-#leagues {
-  float: left;
-  width: 30%
+#events {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  min-height: 250px;
+  padding: 150px 15px 0;
+
+  .event-type {
+    margin: 0 15px;
+    width: 100%;
+    h4 {
+      font: 24px 'Raleway', sans-serif;
+      color: #f07057;
+      padding-bottom: 10px;
+    }
+    li {
+      border-bottom: thin solid gray;
+
+      &>span {
+        color: #3384ff;
+        cursor: pointer;
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration: none;
+      }
+      &>div {
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        display: none;
+        padding: 12px 16px;
+
+        a {
+          color: #3384ff;
+          font-size: 18px;
+          text-decoration: none;
+        }
+        a:hover {
+          color: #f07057;
+          text-decoration: underline;
+        }
+      }
+    }
+    li:hover {
+      &>span {
+        color: #f07057;
+      }
+      &>div {
+        display: block;
+      }
+    }
+  }
 }
 
-#pickup {
-  float: left;
-  width: 30%;
-}
-#tournaments {
-  float: left;
-  width: 30%
-}
-
-/* dropdown menus */
-.dropdownlist a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #3384ff;
-}
-.dropdownlist a:hover {
-  color: #f07057;
-}
-.dropdownlist:hover a{
-  color: #f07057;
-}
-.dropdown-content a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #3384ff;
-}
-.dropdown-content a:hover {
-  color: #f07057;
-  text-decoration: underline;
-}
-.dropdownlist:hover .dropdown-content {
-  display: inline-block;
-  position: relative;
-  z-index: 999;
-}
-.dropdownlist {
-  position: relative;
-  display: block;
-  padding-top: 5px;
-  border-bottom: thin solid gray;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 400px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-}
-#tourney-list li a:hover {
-  color: #f07057;
-}
-#tourney-list li a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #3384ff;
-}
-/* extra signup info */
 #signup {
-  width: 100%;
-  padding: 25px;
+  padding: 30px;
   padding-top: 150px;
-}
-#sign-up-graphic {
-  float: left;
-  margin: 0 auto 20px auto;
-  width: 50%;
-  padding: 25px;
-}
-#sign-up-graphic img {
-  box-shadow: 0 0 10px #888888;
-}
-#sign-up-content {
-  float: left;
-  margin-left: 10px;
-  width: 40%;
-}
-#sign-up-content h1 {
-  border-bottom: thin solid gray;
-}
-#sign-up-content div {
-  padding-top: 15px;
-}
-#sign-up-content span {
-  color: #f07057;
+
+  img  {
+    box-shadow: 0 0 10px #888888;
+    float: left;
+    margin-right: 30px;
+  }
+  h2 {
+    font-weight: bold;
+  }
+  p {
+    margin: 15px 0;
+    span {
+      color: #f07057;
+    }
+  }
 }
 
-/* about us */
 #about-us {
-  width: 100%;
-  margin: 25px;
-  padding-top: 400px;
-}
-#about-us h1 {
-  font-weight: bold;
-}
-#about-us span {
-  color: #f07057;
-}
+  clear: left;
+  padding: 30px;
+  padding-top: 150px;
 
-/* superscript formatting */
-sup {
-  font-size: smaller;
-  vertical-align: super;
-}
-
-/* spacers between the main divs */
-.spacers {
-  width: 100%;
-  height: 350px;
-}
-.spacers img {
-  margin: auto;
-  width: 80%;
-  margin-left: 10%;
-}
-#arrow-down {
-  width:30px;
-  height: 30px;
-  padding-top: 30px;
+  h2 {
+    font-weight: bold;
+  }
+  p {
+    margin: 15px 0;
+    span {
+      color: #f07057;
+    }
+  }
 }
