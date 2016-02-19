@@ -5,15 +5,14 @@ body {
 }
 #main {
   background-color: #f2f2e8;
-  position: relative;
-  height: auto;
-  width: auto;
   font-family: 'Muli', sans-serif;
+  height: auto;
+  position: relative;
+  width: auto;
 }
 #main h1{
   color: #f07057;
-  font-size: 24px;
-  font-family: 'Raleway', sans-serif;
+  font: 24px 'Raleway', sans-serif;
 }
 #mission, .events {
   height: 200px;
@@ -29,11 +28,11 @@ body {
   float: left;
 }
 #mission h1 {
-  font-weight: bold;
   font-size: 30px;
-  width: 31.3%;
+  font-weight: bold;
   margin: 1%;
   text-align: right;
+  width: 31.3%;
 }
 #mission p {
   font-size: 26px;

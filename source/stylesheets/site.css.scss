@@ -1,3 +1,5 @@
-@import "shared/normalize";
-@import "layouts/main";
-@import "sections/index";
+/*
+ *= require_tree ./shared
+ *= require_tree ./layouts
+ *= require_tree ./sections
+ */
