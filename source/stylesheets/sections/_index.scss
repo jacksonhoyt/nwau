@@ -50,8 +50,9 @@ article h2 {
     transition: width 1s, height 1s, border-radius 1s, background-color .5s;
 
     &>div {
-      color: #0000ff;
+      color: #f07057;
       font-size: 100px;
+      vertical-align: middle;      
     }
     &>p {
       color: #BBBBBF; 
@@ -109,6 +110,7 @@ article h2 {
 
     &>ul {
       visibility: visible;
+      display: inline-block;
 
       div {
         visibility: visible;
@@ -116,7 +118,7 @@ article h2 {
 
         a {
           color: #f07057;          
-        }        
+        }              
       }
     }
   }
