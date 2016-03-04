@@ -47,6 +47,8 @@ article h2 {
     background-color: #BBBBBF;
     height: 225px;
     width: 225px;
+    -webkit-transition: width 2s, border-radius .5s, background-color .5s;
+    transition: width 2s, border-radius .5s, background-color .5s;
   }
 }
 
