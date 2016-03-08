@@ -1,5 +1,5 @@
 article {
-  background-color: #f2f2e8;
+  background-color: #D8D0C9;
   font-family: 'Muli', sans-serif;
   height: auto;
   position: relative;
@@ -97,7 +97,7 @@ article h2 {
   }
   
   div:hover {
-    background-color: #BBBBBF;
+    background-color: #f07057;
     height: 225px;
     width: 225px;
     -webkit-transition: width 1s, height 1s, border-radius 1s, background-color .5s;
@@ -132,11 +132,13 @@ article h2 {
 #signup {
   padding-bottom: 250px;  
   padding-top: 150px;
+  background-color: #f2f2f2;
 
   img  {
     box-shadow: 0 0 10px #888888;
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-left: 5px;
     max-width: 100%;
      height: auto;
   }
@@ -155,7 +157,7 @@ article h2 {
 }
 
 #about-us {
-  background-color: #efefef;
+  background-color: #C9C9C9;
   box-shadow: inset 0  8px 8px -8px #696868;  
   clear: left;
   padding: 30px;
@@ -167,6 +169,7 @@ article h2 {
   }
   p {
     margin: 15px 0;
+    color: #404040;
     span {
       color: #f07057;
     }
@@ -184,12 +187,9 @@ article h2 {
     color: #f07057;
   }
   
-  ul {  
+  .social-link {  
     color: #f07057;
-
-    li {
-      display: inline-block;  
-      font-size: 50px;    
-    }
+    display: inline-block;  
+    font-size: 50px;    
   }
 }
