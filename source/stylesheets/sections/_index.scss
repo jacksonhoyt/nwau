@@ -1,5 +1,5 @@
 article {
-  background-color: #D8D0C9;
+  background-color: #fbf1e9;
   font-family: 'Muli', sans-serif;
   height: auto;
   position: relative;
@@ -7,40 +7,27 @@ article {
 }
 article h2 {
   color: #f07057;
-  font: 24px 'Raleway', sans-serif;
+  font: 40px 'Raleway', sans-serif;
+  margin-bottom: 25px;
 }
 
 #mission {  
   text-align: center;
-  padding-top: 150px;
+  padding-top: 125px;
   padding-bottom: 150px;
 
-  h2 {
-    display: inline-block;
-    font-size: 30px;
-    margin-right: 30px;
-  }
   p {
-    display: inline-block;
     font-size: 22px;
-    max-width: 800px;
-    text-align: left;
-    white-space: normal;
   }
 }
 
 #events {
   min-height: 250px;
   padding-top: 100px;
-  padding-bottom: 300px;
+  padding-bottom: 275px;
   text-align: center;      
   background-color: white;
-  box-shadow: inset  0  8px 8px -8px #696868, 
-              inset  0 -8px 8px -8px #696868;  
-
-  h2 {
-    font-size: 40px;            
-  }  
+  box-shadow: inset  0  8px 8px -8px #696868;              
 
   .event-circle {
     background-color: white;  
@@ -132,40 +119,49 @@ article h2 {
 #signup {
   padding-bottom: 250px;  
   padding-top: 150px;
-  background-color: #f2f2f2;
+  background-color: white;
 
-  img  {
-    box-shadow: 0 0 10px #888888;
-    float: left;
-    margin-right: 20px;
-    margin-left: 5px;
-    max-width: 100%;
-     height: auto;
+  h2 {    
+    text-align: center;
   }
-  h2 {
-    font-weight: bold;
-  }
-  p {
-    margin: 15px 0;
-    span {
-      color: #f07057;
+
+  div {        
+
+    h3 {
+      font-size: 25px;    
+      margin-bottom: 10px;
+      text-align: center;
     }
-    ul {
-      list-style-type: circle;
+
+    img  {
+      box-shadow: 0 0 10px #888888;
+      float: left;
+      margin-right: 20px;
+      margin-left: 20px;
+      max-width: 100%;
+       height: auto;
+    }
+
+    p {
+      margin: 20px 0;
+
+      span {
+        color: #f07057;
+      }
     }
   }
 }
 
 #about-us {
-  background-color: #C9C9C9;
+  background-color: #f2f2f2;
   box-shadow: inset 0  8px 8px -8px #696868;  
   clear: left;
   padding: 30px;
   padding-top: 150px;
-  padding-bottom: 200px;
+  padding-bottom: 160px;
 
   h2 {
-    font-weight: bold;
+    text-align: center;
   }
   p {
     margin: 15px 0;
@@ -173,23 +169,5 @@ article h2 {
     span {
       color: #f07057;
     }
-  }
-}
-
-#connect-with-us {  
-  padding-top: 40px;
-  padding-bottom: 40px;
-  text-align: center;  
-  background-color: white;
-  box-shadow: inset 0  8px 8px -8px #696868;
-
-  h3 {
-    color: #f07057;
-  }
-  
-  .social-link {  
-    color: #f07057;
-    display: inline-block;  
-    font-size: 50px;    
   }
 }
