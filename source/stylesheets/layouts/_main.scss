@@ -91,27 +91,32 @@ body > footer {
   }       
 
   .social-links {
-    color: #f07057;    
-    font-size: 40px;
+    color: #f07057;        
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
     -webkit-transition: width 1s, height 1s, border-radius 1s, background-color .5s;
     transition: width 1s, height 1s, border-radius 1s, background-color .5s;     
+    border: 1px solid #f07057;  
+    border-radius: 50%;  
+    height: 50px;
+    width: 50px;
 
-    div {
-      border: 1px solid #f07057;  
-      border-radius: 50%;  
-      height: 50px;
-      width: 50px;
-    } 
-
-    div:hover {
+    &:hover {
       background-color: #f07057;      
       color: white; 
       -webkit-transition: width 1s, height 1s, border-radius 1s, background-color .5s;
       transition: width 1s, height 1s, border-radius 1s, background-color .5s;  
     }
+
+    div {
+      color: #f07057;
+      font-size: 35px;             
+      position: relative;
+      top: 24%;
+    } 
+
+
   }
 
   p {    
