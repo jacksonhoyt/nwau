@@ -81,8 +81,11 @@ article h2 {
   .event-description {
     text-align: left;
     margin-top: 75px;
-    position: relative;
-    left: 20%;
+    position: relative;    
+    margin-left: 100px;
+    margin-right: 2px;
+    font-size: 23px;
+    line-height: 50px;
   }
 }
 
@@ -96,7 +99,7 @@ article h2 {
   }
 
   #col1 {
-    width: 55%;
+    width: 55%;    
   }
 
   #col2 {
