@@ -20,7 +20,8 @@ body > header {
     }
     h3 {
       font-size: 30px;
-      color: #f07057;
+      //color: #f07057;
+      color: #248dc1;
     }
   }
   .slideshow {
@@ -33,7 +34,7 @@ body > header {
       opacity: 0;
       position: absolute;
       top: 0;
-      transition: 1s opacity;
+      transition: 1s opacity;      
     }
     img.current {
       opacity: 1;
@@ -43,7 +44,8 @@ body > header {
 
 body > nav {
   background-color: white;
-  box-shadow: 0 2px 3px rgba(0,0,0, .4);
+  //box-shadow: 0 2px 3px rgba(0,0,0, .4);
+  box-shadow: inset 0  8px 8px -8px #696868;  
   padding-bottom: 16px;
   padding-top: 15px;
   position: absolute;
@@ -55,7 +57,8 @@ body > nav {
     display: none;
   }
   a {
-    color: #f07057;
+    //color: #f07057;
+    color: #248dc1;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
@@ -63,19 +66,21 @@ body > nav {
     text-decoration: none;
   }
   a:hover {
-    box-shadow: 0 -2px #f07057 inset;
+    //box-shadow: 0 -2px #f07057 inset;
+    box-shadow: 0 -2px #248dc1 inset;
   }
   z-index: 4;
 }
 body > nav.affix {
   position: fixed;
   top: 0;
+  box-shadow: 0 2px 3px rgba(0,0,0, .4);
 }
 
 body > footer {
   background-color: white;
   bottom: 0;  
-  box-shadow: inset 0  8px 8px -8px #696868;
+  //box-shadow: inset 0  8px 8px -8px #696868;
   float: left;
   font-family: 'Raleway', sans-serif;  
   text-align: center;
@@ -86,24 +91,28 @@ body > footer {
 
 
   h3 {
-    color: #f07057;
+    //color: #f07057;
+    color: #248dc1;
     padding-bottom: 30px;
   }       
 
   .social-links {
-    color: #f07057;        
+    //color: #f07057;     
+    color: #248dc1;   
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
     -webkit-transition: width 1s, height 1s, border-radius 1s, background-color .5s;
     transition: width 1s, height 1s, border-radius 1s, background-color .5s;     
-    border: 1px solid #f07057;  
+    //border: 1px solid #f07057; 
+    border: 1px solid #248dc1;  
     border-radius: 50%;  
     height: 50px;
     width: 50px;
 
     &:hover {
-      background-color: #f07057;      
+      //background-color: #f07057; 
+      background-color: #248dc1;     
       color: white; 
       -webkit-transition: width 1s, height 1s, border-radius 1s, background-color .5s;
       transition: width 1s, height 1s, border-radius 1s, background-color .5s;  
