@@ -136,6 +136,13 @@ article h2 {
         //color: #f07057;
         color: #248dc1;
       }
+      a:link, a:visited {
+        text-decoration: none;
+        color: #248dc1;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
