@@ -29,7 +29,11 @@ article h2 {
   padding-bottom: 275px;
   text-align: center;      
   //background-color: white;
-  //box-shadow: inset  0  8px 8px -8px #696868;              
+  //box-shadow: inset  0  8px 8px -8px #696868;   
+
+  .modal-open .modal,.a:focus{
+    outline:none!important
+  }           
 
   .event-circle {
     //background-color: white;          
