@@ -12,6 +12,14 @@ article h2 {
   margin-bottom: 25px;
 }
 
+#logo {
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+  width: 7%;
+  height: 10%;
+}
+
 #mission {  
   //background-color: #c4e7bf;  
   text-align: center;
@@ -20,6 +28,15 @@ article h2 {
 
   p {
     font-size: 22px;
+  }
+
+  #swoosh-color-mission {
+    left: 0;
+    top: 0;
+    margin-left: -20%;
+    position: absolute;
+    height: 4%;
+    width: 45%;
   }
 }
 
