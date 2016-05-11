@@ -114,13 +114,12 @@ article h2 {
   }
 
   .modal-body {    
+    text-align: left;
 
     ul {
+      padding-top: 10px;
 
-      li {
-        text-align: left;
-        
-
+      li {     
 
         &>span {
           color: #3384ff;
